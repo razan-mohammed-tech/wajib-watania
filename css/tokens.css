@@ -1,0 +1,69 @@
+/* ==========================================================================
+   واجب مواطنة — Design Tokens (متغيرات التصميم)
+   الأخضر السعودي + الأبيض + لمسات ذهبية
+   ========================================================================== */
+
+:root {
+  /* --- الأخضر --- */
+  --green-950: #04301d;
+  --green-900: #064e2b;
+  --green-800: #0a5f36;
+  --green-700: #0e7a44;
+  --green-600: #12934f;
+  --green-500: #17a55a;
+  --green-200: #b9e6cc;
+  --green-100: #dcf4e6;
+  --green-50:  #f0fbf4;
+
+  /* --- الذهبي --- */
+  --gold-700: #8f6c14;
+  --gold-600: #a9821f;
+  --gold-500: #c9a227;
+  --gold-400: #d9b84a;
+  --gold-200: #f2e3ad;
+  --gold-100: #faf1cf;
+  --gold-50:  #fdfaee;
+
+  /* --- المحايدات --- */
+  --ink:    #12281f;
+  --muted:  #4c6459;
+  --line:   #e2ece6;
+  --bg:     #f6faf7;
+  --card:   #ffffff;
+  --white:  #ffffff;
+
+  /* --- حالات --- */
+  --danger:      #c0392b;
+  --danger-bg:   #fdecea;
+  --danger-line: #f5c6c0;
+  --info:        #1d6fa5;
+  --info-bg:     #e9f4fb;
+
+  /* --- خطوط --- */
+  --font-body: "Tajawal", "Segoe UI", "Tahoma", "Arial", sans-serif;
+  --font-head: "Noto Kufi Arabic", "Tajawal", "Segoe UI", "Tahoma", sans-serif;
+
+  /* --- أحجام وأبعاد --- */
+  --radius-sm: 12px;
+  --radius:    18px;
+  --radius-lg: 26px;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 2px 8px rgba(6, 78, 43, 0.08);
+  --shadow:    0 8px 24px rgba(6, 78, 43, 0.10);
+  --shadow-lg: 0 18px 44px rgba(6, 78, 43, 0.16);
+
+  --container: 1120px;
+  --header-h: 74px;
+
+  /* --- حركة --- */
+  --ease: cubic-bezier(.22, .9, .3, 1);
+  --fast: 160ms;
+  --slow: 320ms;
+
+  /* --- تدرّجات --- */
+  --grad-green: linear-gradient(135deg, var(--green-700), var(--green-500));
+  --grad-gold:  linear-gradient(135deg, var(--gold-500), var(--gold-400));
+  --grad-hero:  radial-gradient(1200px 500px at 90% -10%, rgba(217, 184, 74, .35), transparent 60%),
+                linear-gradient(160deg, var(--green-900) 0%, var(--green-800) 55%, var(--green-700) 100%);
+}
